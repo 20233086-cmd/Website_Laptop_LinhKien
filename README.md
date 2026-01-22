@@ -12,3 +12,18 @@
 <li>Controller – Xử lý yêu cầu và gửi phản hồi đến view.</li>
 <li>Model – Middleware xử lý các thao tác cơ sở dữ liệu.</li>
 </ul>
+<img width="755" height="510" alt="image" src="https://github.com/user-attachments/assets/15776c01-4b27-448f-ab01-2d1c6ed85abe" />
+<h2>View</h2>
+<a>Về cơ bản, View đại diện cho cách dữ liệu được trình bày trong ứng dụng (UI). Các view được tạo ra dựa trên dữ liệu thu thập từ model. Bằng cách yêu cầu thông tin từ model, sau đó sẽ trả kết quả tới người dùng. Ngoài việc hiển thị dữ liệu từ các biểu đồ, sơ đồ và bảng, view còn hiển thị dữ liệu từ các nguồn khác. Tất cả các thành phần giao diện người dùng, chẳng hạn như hộp văn bản, menu thả xuống, v.v., sẽ xuất hiện trong bất kỳ view nào của khách hàng.</a>
+
+<h2>Controller</h2>
+<a>Controller là thành phần xử lý tương tác của người dùng. Dữ liệu đầu vào của người dùng được controller phân tích và xử lí, khi người dùng thao tác bất kì với hệ thống controller sẽ gửi thông tin đến model để xử lí và sau đó trả về kết quả view</a>
+
+<a>Người dùng -tương tác-> Controller => Model => View (output) -trả kết quả-> Người dùng</a>
+
+<a>Bằng cách giao tiếp với view liên quan của controller, người dùng có thể thay đổi giao diện của view (ví dụ: cuộn qua một tài liệu) và cập nhật trạng thái của model liên quan (ví dụ: lưu một tài liệu).<a>
+
+<h2>Model</h2>
+<a>Model là nơi lưu trữ dữ liệu và logic. Ví dụ, khi Controller truy xuất thông tin khách hàng từ cơ sở dữ liệu, dữ liệu được chuyển đổi giữa các thành phần controller hoặc giữa các yếu tố logic nghiệp vụ. Nó thao tác dữ liệu và gửi lại cơ sở dữ liệu, hoặc được sử dụng để hiển thị thông tin tương tự.</a>
+
+<h2>Ngoài ra, nó phản hồi các yêu cầu từ view và có các chỉ thị từ controller cho phép nó tự cập nhật. Nó cũng là mức thấp nhất của mô hình chịu trách nhiệm duy trì dữ liệu.</h2>
